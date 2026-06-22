@@ -1,0 +1,16 @@
+{
+  "name": "thepitch-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy for The Pitch World Cup 2026 site",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
